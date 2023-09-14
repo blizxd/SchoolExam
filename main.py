@@ -45,5 +45,5 @@ with open("./U1.txt", "r") as file:
         totalDistance = feetLength*sum(line[2::])/100_000
         gradeInfo.addGradeOrUpdate(grade, totalDistance)
 
-with open("./U1rez.txt", "w") as file:
+with open("./U1rez.txt", "w") as file:  # Output data to file
     gradeInfo.printDataToFile(file)
